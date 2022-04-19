@@ -1,4 +1,4 @@
-import { ADDRESS_ZERO, BIG_INT_ZERO, COMPLEX_REWARDER, NATIVE } from 'const'
+import { ADDRESS_ZERO, BIG_INT_ZERO, COMPLEX_REWARDER, NATIVE } from './../../../../packages/constants/index.template'
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 import {
   CloneRewarderTime as CloneRewarderTimeTemplate,

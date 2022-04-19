@@ -20,6 +20,8 @@
     "deploy:matic": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/matic-bentobox subgraph.yaml",
     "deploy:xdai": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/xdai-bentobox subgraph.yaml",
     "deploy:arbitrum": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/arbitrum-bentobox subgraph.yaml",
+    "deploy:mbase": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ chandu-thoughtwin/bentobox subgraph.yaml",
+
 
     "prepare:mainnet": "mustache config/mainnet.json template.yaml > subgraph.yaml",
     "prepare:ropsten": "mustache config/ropsten.json template.yaml > subgraph.yaml",
@@ -30,6 +32,8 @@
     "prepare:matic": "mustache config/matic.json template.yaml > subgraph.yaml",
     "prepare:rinkeby": ".",
     "prepare:xdai": "mustache config/xdai.json template.yaml > subgraph.yaml",
+    "prepare:mbase": "mustache config/xdai.json template.yaml > subgraph.yaml",
+
     "prepare:arbitrum": "mustache config/arbitrum.json template.yaml > subgraph.yaml",
     "prepare:fuse": "true"
   }

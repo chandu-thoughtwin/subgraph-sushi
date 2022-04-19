@@ -1,5 +1,5 @@
 import { Address, ethereum } from '@graphprotocol/graph-ts'
-import { BIG_INT_ZERO } from 'const'
+import { BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 import { UserKashiPair } from '../../generated/schema'
 import { KashiPair as KashiPairContract } from '../../generated/BentoBox/KashiPair'
 

@@ -8,7 +8,7 @@ import {
   SUSHI_BAR_ADDRESS,
   SUSHI_TOKEN_ADDRESS,
   SUSHI_USDT_PAIR_ADDRESS,
-} from 'const'
+} from './../../../packages/constants/index.template'
 import { Address, BigDecimal, BigInt, dataSource, ethereum, log } from '@graphprotocol/graph-ts'
 import { AuctionTemplateAdded, AuctionTemplateRemoved, MarketCreated } from '../generated/MISOMarket/MISOMarket'
 import { AddedCommitment, AuctionCancelled, AuctionFinalized } from '../generated/templates/MisoAuction/MisoAuction'

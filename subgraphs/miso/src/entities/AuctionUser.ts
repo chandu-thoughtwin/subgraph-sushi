@@ -1,4 +1,4 @@
-import { BIG_INT_ONE } from "const";
+import { BIG_INT_ONE } from "../../../../packages/constants/index.template";
 import { Auction, AuctionUser } from "../../generated/schema";
 import { getOrCreateUser } from "./User";
 

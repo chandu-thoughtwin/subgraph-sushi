@@ -1,5 +1,5 @@
 import { Address, log } from '@graphprotocol/graph-ts'
-import { FACTORY_ADDRESS, BIG_DECIMAL_ONE } from 'const'
+import { FACTORY_ADDRESS, BIG_DECIMAL_ONE } from './../../../../packages/constants/index.template'
 import { getMaker, getServer } from '../entities'
 import { Serving } from '../../generated/schema'
 import { Factory as FactoryContract } from '../../generated/SushiMaker/Factory'

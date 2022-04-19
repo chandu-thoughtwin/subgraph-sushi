@@ -1,6 +1,6 @@
 import { Maker } from '../../generated/schema'
 import { Address, ethereum , dataSource, log } from '@graphprotocol/graph-ts'
-import { BIG_DECIMAL_ZERO, BIG_INT_ZERO } from 'const'
+import { BIG_DECIMAL_ZERO, BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 
 
 export function getMaker(block: ethereum.Block): Maker {

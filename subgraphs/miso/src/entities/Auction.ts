@@ -1,4 +1,4 @@
-import { BIG_INT_ZERO } from 'const'
+import { BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 import { MarketCreated } from '../../generated/MISOMarket/MISOMarket'
 import { Auction } from '../../generated/schema'
 

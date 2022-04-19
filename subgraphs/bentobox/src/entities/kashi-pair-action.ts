@@ -1,7 +1,7 @@
 import { KashiPairAction } from '../../generated/schema'
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 import { getKashiPair } from './kashi-pair'
-import { BIG_INT_ZERO } from 'const'
+
 
 import {
   BIG_INT_ZERO,
@@ -11,7 +11,7 @@ import {
   PAIR_REMOVE_ASSET,
   PAIR_BORROW,
   PAIR_REPAY,
-} from 'const'
+} from './../../../../packages/constants/index.template'
 
 export function createKashiPairAction(event: ethereum.Event, type: string): KashiPairAction {
   const id = event.transaction.hash.toHex() + '-' + event.logIndex.toString()

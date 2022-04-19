@@ -1,4 +1,4 @@
-import { ADDRESS_ZERO, BIG_INT_ZERO } from 'const'
+import { ADDRESS_ZERO, BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 import { BigInt, ethereum } from '@graphprotocol/graph-ts'
 
 import { Pool, NativeRewarderPool } from '../../generated/schema'

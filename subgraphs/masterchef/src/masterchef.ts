@@ -21,8 +21,7 @@ import {
   BIG_INT_ONE_DAY_SECONDS,
   BIG_INT_ZERO,
   MASTER_CHEF_ADDRESS,
-  MASTER_CHEF_START_BLOCK,
-} from 'const'
+  MASTER_CHEF_START_BLOCK,} from './../../../packages/constants/index.template'
 import { History, MasterChef, Pool, PoolHistory, User } from '../generated/schema'
 import { getSushiPrice, getUSDRate } from 'pricing'
 

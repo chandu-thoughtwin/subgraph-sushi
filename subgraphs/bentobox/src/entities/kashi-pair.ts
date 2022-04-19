@@ -1,6 +1,6 @@
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 
-import { BIG_INT_ZERO, BIG_INT_ONE, KASHI_PAIR_MEDIUM_RISK_TYPE } from 'const'
+import { BIG_INT_ZERO, BIG_INT_ONE } from './../../../../packages/constants/index.template'
 import { STARTING_INTEREST_PER_YEAR } from '../kashi-constants'
 import { KashiPair } from '../../generated/schema'
 import { KashiPair as KashiPairContract } from '../../generated/BentoBox/KashiPair'

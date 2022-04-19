@@ -26,7 +26,7 @@ import {
   PAIR_REMOVE_ASSET,
   PAIR_REMOVE_COLLATERAL,
   PAIR_REPAY,
-} from 'const'
+} from './../../../../packages/constants/index.template'
 
 import {
   getKashiPair,

@@ -7,7 +7,7 @@ import {
   SUSHI_BAR_ADDRESS,
   SUSHI_TOKEN_ADDRESS,
   SUSHI_USDT_PAIR_ADDRESS,
-} from 'const'
+} from './../../../packages/constants/index.template'
 import { Address, BigDecimal, BigInt, dataSource, ethereum, log } from '@graphprotocol/graph-ts'
 import { Bar, History, User } from '../generated/schema'
 import { Bar as BarContract, Transfer as TransferEvent } from '../generated/SushiBar/Bar'

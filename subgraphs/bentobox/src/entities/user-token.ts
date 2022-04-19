@@ -1,6 +1,6 @@
 import { ethereum } from '@graphprotocol/graph-ts'
 import { Token, User, UserToken } from '../../generated/schema'
-import { BIG_INT_ZERO } from 'const'
+import { BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 
 export function getUserToken(user: User, token: Token, block: ethereum.Block): UserToken {
   const id = user.id.concat('-').concat(token.id)

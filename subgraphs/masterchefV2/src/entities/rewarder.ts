@@ -4,7 +4,7 @@ import {
   CONVEX_REWARDERS,
   ALCX_REWARDER,
   LIDO_REWARDER,
-} from 'const'
+} from './../../../../packages/constants/index.template'
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 
 import { ComplexRewarder as ComplexRewarderContract } from '../../generated/MasterChefV2/ComplexRewarder'

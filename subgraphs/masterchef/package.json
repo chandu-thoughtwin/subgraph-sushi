@@ -7,7 +7,9 @@
         "codegen": "graph codegen subgraph.yaml",
         "build": "graph build subgraph.yaml",
 
-        "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/master-chef subgraph.yaml",
+        "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ chandu-thoughtwin/sushi-makerv2 subgraph.yaml",
+        "deploy:mbase": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ chandu-thoughtwin/masterchef subgraph.yaml --access-token",
+
         "deploy-studio": "graph deploy --studio sushi---masterchef",
 
         "create-local": "graph create --node http://localhost:8020/ /sushiswap/sushiswap",
@@ -22,6 +24,8 @@
         "prepare:matic": "mustache config/matic.json template.yaml > subgraph.yaml",
         "prepare:rinkeby": "mustache config/rinkeby.json template.yaml > subgraph.yaml",
         "prepare:ropsten": "mustache config/ropsten.json template.yaml > subgraph.yaml",
-        "prepare:xdai": "mustache config/xdai.json template.yaml > subgraph.yaml"
+        "prepare:xdai": "mustache config/xdai.json template.yaml > subgraph.yaml",
+        "prepare:mbase": "mustache config/moonbase.json template.yaml > subgraph.yaml"
+
     }
 }

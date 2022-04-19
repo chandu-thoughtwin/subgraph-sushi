@@ -1,7 +1,7 @@
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 import { User } from '../../generated/schema'
 import { getBentoBox } from './bentobox'
-import { BIG_INT_ONE } from 'const'
+import { BIG_INT_ONE } from './../../../../packages/constants/index.template'
 
 export function getUser(address: Address, block: ethereum.Block): User {
   const bentoBox = getBentoBox(block)

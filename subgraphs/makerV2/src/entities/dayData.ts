@@ -1,6 +1,6 @@
 import { DayData } from '../../generated/schema'
 import { Address, ethereum, dataSource, log } from '@graphprotocol/graph-ts'
-import { BIG_DECIMAL_ZERO, BIG_INT_ZERO } from 'const'
+import { BIG_DECIMAL_ZERO, BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 
 export function getDayData(event: ethereum.Event): DayData {
   const id = event.block.timestamp.toI32() / 86400

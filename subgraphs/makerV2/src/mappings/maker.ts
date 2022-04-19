@@ -1,5 +1,5 @@
 import { Address, log } from '@graphprotocol/graph-ts'
-import { BIG_DECIMAL_ONE } from 'const'
+import { BIG_DECIMAL_ONE } from './../../../../packages/constants/index.template'
 import { getMaker, getDayData } from '../entities'
 import { DayData, Serving } from '../../generated/schema'
 import { Serve } from '../../generated/SushiMaker/SushiMakerV2'

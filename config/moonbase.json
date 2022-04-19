@@ -1,0 +1,18 @@
+{
+    "network": "mbase",
+    "factory_address": "0xB69E4feea0F463516f25986a3E82E9E16917642D",
+    "masterchef_address": "0x1b97E231c00549D5BF9c91BA064dd7A8d1a24d4C",
+    "sushi_bar_address": "0x7dC0b04202E804d11CcC9b41DEA177E3b81Da30B",
+    "sushi_maker_address": "0xDB075A423aa2089f680418d7d97873Fff782bE5B",
+    "sushi_address": "0xfA7D0247Dba379716FEd18778631A94FF5baB49b",
+    "weth_address": "0xA5fd1F6e7980Fd5cA9d062a762030D449990BBBf",
+    "bentobox_address": "0xb384D1f10a7155a34bA5CD52d12eE9b09ca34285",
+    "native_address": "0xA5fd1F6e7980Fd5cA9d062a762030D449990BBBf",
+    "minimum_usd_threshold_new_pairs": "3000",
+    "minimum_liquidity_threshold_eth": "3",
+    "factory": {
+      "address": "0xB69E4feea0F463516f25986a3E82E9E16917642D",
+      "startBlock": "1967376"
+    }
+  }
+  

@@ -8,6 +8,8 @@
         "build": "graph build subgraph.yaml",
 
         "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ sushiswap/bar subgraph.yaml",
+        "deploy:mbase": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ chandu-thoughtwin/bar subgraph.yaml --access-token",
+
         "deploy-studio": "graph deploy --studio sushi---sushibar",
 
         "create-local": "graph create --node http://localhost:8020/ /sushiswap/sushiswap",
@@ -19,6 +21,7 @@
         "prepare:mainnet": "mustache config/mainnet.json template.yaml > subgraph.yaml",
         "prepare:rinkeby": "mustache config/rinkeby.json template.yaml > subgraph.yaml",
         "prepare:ropsten": "mustache config/ropsten.json template.yaml > subgraph.yaml",
+        "prepare:mbase": "mustache config/moonbase.json template.yaml > subgraph.yaml",
         "prepare:fuse": "true"
     }
 }

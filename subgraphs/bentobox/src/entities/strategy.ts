@@ -1,5 +1,5 @@
 import { Strategy } from '../../generated/schema'
-import { BIG_INT_ZERO } from 'const'
+import { BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 import { Address, ethereum } from '@graphprotocol/graph-ts'
 
 export function getOrCreateStrategy(_strategy: Address, token: Address, block: ethereum.Block): Strategy {

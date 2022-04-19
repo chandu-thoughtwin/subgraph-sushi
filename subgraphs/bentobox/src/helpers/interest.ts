@@ -15,7 +15,7 @@ import {
 
 import {
   BIG_INT_ZERO,
-} from 'const'
+} from './../../../../packages/constants/index.template'
 
 export function takeFee(amount: BigInt): BigInt {
   return amount.times(BigInt.fromI32(9)).div(BigInt.fromI32(10))

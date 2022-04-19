@@ -1,4 +1,4 @@
-import { ACC_SUSHI_PRECISION, ADDRESS_ZERO, BIG_INT_ONE, BIG_INT_ZERO } from 'const'
+import { ACC_SUSHI_PRECISION, ADDRESS_ZERO, BIG_INT_ONE, BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 import {
   Deposit,
   EmergencyWithdraw,

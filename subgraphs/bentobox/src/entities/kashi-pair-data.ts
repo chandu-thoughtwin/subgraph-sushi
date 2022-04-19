@@ -1,6 +1,6 @@
 import { BigInt, ethereum } from '@graphprotocol/graph-ts'
 
-import { BIG_INT_ZERO, BIG_INT_ONE, BIG_INT_TWO, KASHI_PAIR_MEDIUM_RISK_TYPE} from 'const'
+import { BIG_INT_TWO} from './../../../../packages/constants/index.template'
 import { KashiPairDayData, KashiPairHourData, KashiPair } from '../../generated/schema'
 
 export function updateKashiPairDayData(event: ethereum.Event): KashiPairDayData {

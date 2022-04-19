@@ -8,7 +8,7 @@ import {
   LOCKUP_BLOCK_NUMBER,
   LOCKUP_POOL_NUMBER,
   MASTER_CHEF_ADDRESS,
-} from 'const'
+} from './../../../packages/constants/index.template'
 import {
   Deposit,
   MasterChef as MasterChefContract,

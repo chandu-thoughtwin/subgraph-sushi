@@ -1,6 +1,6 @@
 import { Pool } from '../../generated/schema'
 import { BigInt, Address, dataSource, ethereum } from '@graphprotocol/graph-ts'
-import { BIG_INT_ZERO, ADDRESS_ZERO } from 'const'
+import { BIG_INT_ZERO, ADDRESS_ZERO } from './../../../../packages/constants/index.template'
 import { getMasterChef } from './masterchef'
 
 export function getPool(pid: BigInt, block: ethereum.Block): Pool {

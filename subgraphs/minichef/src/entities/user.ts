@@ -1,5 +1,5 @@
 import { Address, BigInt, ethereum } from '@graphprotocol/graph-ts'
-import { BIG_INT_ONE, BIG_INT_ZERO } from 'const'
+import { BIG_INT_ONE, BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 
 import { User } from '../../generated/schema'
 import { getPool } from './pool'

@@ -5,11 +5,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: SushiMaker
-    network: mainnet
+    network: mbase
     source:
-      address: '0xe11fc0b43ab98eb91e9836129d1ee7c3bc95df50'
+      address: '0xDB075A423aa2089f680418d7d97873Fff782bE5B'
       abi: SushiMaker
-      startBlock: 11626958
+      startBlock: 1967444
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4

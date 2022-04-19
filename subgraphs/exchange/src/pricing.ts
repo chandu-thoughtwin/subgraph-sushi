@@ -14,7 +14,7 @@ import {
   USDT,
   USDT_WETH_PAIR,
   WHITELIST,
-} from 'const'
+} from "../../../packages/constants/index.template"
 import { Address, BigDecimal, BigInt, dataSource, ethereum, log } from '@graphprotocol/graph-ts'
 import { Pair, Token } from '../generated/schema'
 

@@ -13,6 +13,7 @@
     "prepare:goerli": "yarn workspaces run prepare:goerli",
     "prepare:kovan": "yarn workspaces run prepare:kovan",
     "prepare:mainnet": "yarn workspaces run prepare:mainnet",
+    "prepare:mbase": "yarn workspaces run prepare:mbase",
     "prepare:matic": "yarn workspaces run prepare:matic",
     "prepare:rinkeby": "yarn workspaces run prepare:rinkeby",
     "prepare:ropsten": "yarn workspaces run prepare:ropsten",

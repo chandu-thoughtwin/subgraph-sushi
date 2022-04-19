@@ -1,7 +1,7 @@
 import { BigInt, Address } from '@graphprotocol/graph-ts'
 import { SushiDistributor, Claimed } from '../generated/SushiDistributor/SushiDistributor'
 import { User, Claim, Week } from '../generated/schema'
-import { BIG_DECIMAL_ZERO, BIG_DECIMAL_1E18, BIG_INT_ZERO, SUSHI_DISTRIBUTOR_ADDRESS } from 'const'
+import { BIG_DECIMAL_ZERO, BIG_DECIMAL_1E18, BIG_INT_ZERO, SUSHI_DISTRIBUTOR_ADDRESS } from './../../../packages/constants/index.template'
 
 export function getUser(address: Address): User {
   let id = address.toHexString()

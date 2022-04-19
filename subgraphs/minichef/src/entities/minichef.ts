@@ -1,4 +1,4 @@
-import { BIG_INT_ZERO, SUSHI_TOKEN_ADDRESS } from 'const'
+import { BIG_INT_ZERO, SUSHI_TOKEN_ADDRESS } from './../../../../packages/constants/index.template'
 import { dataSource, ethereum } from '@graphprotocol/graph-ts'
 
 import { MiniChef } from '../../generated/schema'

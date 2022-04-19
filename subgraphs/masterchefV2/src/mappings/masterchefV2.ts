@@ -18,7 +18,7 @@ import {
   BIG_INT_ZERO,
   MASTER_CHEF_V2_ADDRESS,
   ACC_SUSHI_PRECISION
-} from 'const'
+} from './../../../../packages/constants/index.template'
 import { MasterChef, Pool, User, Rewarder } from '../../generated/schema'
 
 import {

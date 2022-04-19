@@ -6,7 +6,7 @@ import {
   BIG_INT_ZERO,
   KASHI_PAIR_MEDIUM_RISK_MASTER_ADDRESS,
   KASHI_PAIR_MEDIUM_RISK_TYPE,
-} from 'const'
+} from './../../../../packages/constants/index.template'
 import {
   LogDeploy,
   LogDeposit,

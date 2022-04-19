@@ -1,5 +1,5 @@
 import { Address, BigInt, ethereum } from '@graphprotocol/graph-ts'
-import { BIG_INT_ZERO, BIG_INT_ONE, NULL_CALL_RESULT_VALUE, BENTOBOX_ADDRESS } from 'const'
+import { BIG_INT_ZERO, BIG_INT_ONE, NULL_CALL_RESULT_VALUE, BENTOBOX_ADDRESS } from './../../../../packages/constants/index.template'
 
 import { ERC20 } from '../../generated/BentoBox/ERC20'
 import { ERC20NameBytes } from '../../generated/BentoBox/ERC20NameBytes'

@@ -1,6 +1,6 @@
 import { BentoBoxAction } from '../../generated/schema'
 import { ethereum } from '@graphprotocol/graph-ts'
-import { BIG_INT_ZERO } from 'const'
+import { BIG_INT_ZERO } from './../../../../packages/constants/index.template'
 
 export function createBentoBoxAction(event: ethereum.Event, type: string): BentoBoxAction {
   const id = event.transaction.hash.toHex() + '-' + event.logIndex.toString()
